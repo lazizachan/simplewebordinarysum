@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #e0e8ff;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 350px;
+  /* height: 100vh; */
+  margin: 0 auto;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+header {
+  width: 350px;
+}
+.imgpic {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+main {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.maintxt {
+  width: 350px;
+  text-align: center;
+}
+.maintxt h2 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+.maintxt p {
+  color: rgb(135, 143, 146);
+  padding-bottom: 1rem;
+}
+.price {
+  width: 300px;
+  height: 80px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgb(167, 199, 235);
+}
+.mainprice {
+  width: 150px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: rgb(178, 204, 246);
+}
+.fa-music {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.annualpl {
+  color: black;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.peryear {
+  color: grey;
+  font-weight: 500;
+}
+.price a {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+footer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.proceedbtn {
+  width: 300px;
+  height: 40px;
+  border-radius: 0.6rem;
+  color: white;
+  background-color: blue;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.cancelbtn {
+  width: 300px;
+  height: 40px;
+  border-radius: 0.6rem;
+  color: gray;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
